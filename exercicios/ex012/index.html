@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em hospedagem própria</title>
+</head>
+<body>
+    <h1>Utilizando a tag &lt;video&gt;</h1>
+    <p>
+        A utilização da tag <strong>&lt;video&gt;</strong> é prejudicial uma vez que gere um alto tráfico de dados tornando o site lento e caro.
+    </p>
+    <p>
+        Diferentes navegadores suportam diferentes formatos de vídeo, portanto é muito importante que o código contenha diversos formatos assim todos os navegadores serão capazes de visualizar o vídeo em seu site. No código deste site em expecifico fiquei com preguiça de colocar diversos formatos optei pelo mp4 pois é o melhor dentre todos, mas o ideal como já disse é ter diversos formatos a disposição.
+    </p>
+    <video controls width="400" poster="imagens/tamb cavalo 1067x672.jpg" preload="metadata">
+        <source src="videos/Cavalos 720P 33.5-equilibrio.mp4" type="video/mp4">
+    </video>
+    <p>
+        Aqui os parâmetros atribuidos foram <strong><abbr title="Adiciona os controles de play e etc">controls</abbr></strong>, <strong><abbr title="Da um valor a largura, assim mesmo o vídeo tendo 720px sua largura terá o valor deste parâmetro">width</abbr></strong>, <strong><abbr title="deve ser usado em metadata para a web">preload</abbr></strong> e <strong><abbr title="adiciona a tamb">poster</abbr></strong>
+    </p>
+    <h1>Utilizando vídeos hospedados exteriormente</h1>
+    <p>
+        Anteriormente foi mostrado como colocar vídeos hospedados no próprio servidor a partir de agora veremos como colocar vídeos que estão hospedados em outros servidores, <strong>é muito importante esaltar que os vídeos que estão hospedados externamente contornam a problematica apresentada a cima dois dos sites de hospedagem mais famosos são o youtube e o vimeo</strong> esses dois se diferem principalmente pelo fato do youtube possibilitar a visualização sem controle, enquanto o vimeo pode limitar a visualização apênas para assinantes, por exemplo, a escolha de qual utilizar será do cliente, o programador deve apenas informar-lo das diferenças e aconcelhar-lo.
+    </p>
+    <p>
+        Para colocar um video já hospedado no youtube ou no vimeo basta achar a opção de <strong>incorporação</strong> e ter certeza absoluta de que o video está livre de direitos autorais. No exemplo a seguir o video tem sim direitos autorais, mas devido ao fato dele ficar apênas em meu computador e não ser utilizado para fins comerciais, então isso é permitido. Apos achar a opção de incorporação basta copiar o código e colar-lo no código do seu site e este será o resultado:
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mckG6hYSxz0?si=Xcfgdze4gAMJNOsW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

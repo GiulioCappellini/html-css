@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bordas personalizadas</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+h1 {
+    display: flex;
+    border: 15px solid transparent;
+    border-image: url(teste-borda-perso.png) 26 repeat;
+    width: 400px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Italia</h1>
+    </div>
+</body>
+</html>

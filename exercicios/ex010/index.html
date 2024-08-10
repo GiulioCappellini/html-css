@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Links externos</h1>
+    <p>
+        Os links externos são aqueles links que quando precionados levam o usuario a outro site, isso pode acontecer sobrepondo o site ao seu ou fazendo com que ele seja aberto em uma nova aba, a tag para um link é &lt;a&gt; e o parâmetro para abrir em outra aba é <q>target='_blank' rel='external'</q>. Abaixo tem um exemplo de dois links para o youtube, um sem esse parâmetro e outro com:
+    </p>
+    <h2>Sem o parâmetro:</h2>
+    <p>
+        <a href="https://youtu.be/ky4LMUKbAtk?si=A8sHUWIPwOlpIYG8">Minha música favorita, atualmente.</a>
+    </p>
+    <h2>Com o parâmetro:</h2>
+    <p>
+        <a href="https://youtu.be/ky4LMUKbAtk?si=A8sHUWIPwOlpIYG8" target="_blank" rel="external">Minha música favorita, atualmente</a>
+    </p>
+    <h1>Links internos</h1>
+    <p>
+        Os links internos agem fazendo ligações internas entre as páginas de um mesmo site eke utiliza a mesma tag mas o parâmetro target agore terá valir igual a '_self' que fará com que o link seja caregado em cima da aba já aberta, o outro parâmetro foi explicado nas páginas que você acesará a seguir. Caso a segunda página estiver na mesma pasta que a primeira então o valor de 'href' será o nome do arquivo da pagina2, caso ela esteja em outra pasta então o valor de 'href' será igual ao nome da página/nome do arquivo da pagina2 e por ultimo caso você esteja em uma página que está em outra pasta o valor de 'href' será igual a ../o nome do arquivo da página desejada, '../' fala ao computador que é necessario voltar uma pasta para acessar o arquivo desejado.
+    </p>
+    <p>
+        Outras páginas: <br> <a href="pag2.html" target="_self" rel="next">2</a> / <a href="exemplo/pag3.html" target="_self" rel="next">3</a>
+    </p>
+    <h1>Links de dowload</h1>
+    <p>
+        Um link de dowload é apenas um link normal com parâmetros diferentes, para fazer dowload é recomendavel ser um arquivo .zip os parâmetros são: dowload='nome do arquivo' e type='media type' o valor de type pode ser adquirido peso site <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">iana.org</a>. Abaixo tem um exemplo de link de dowload: <br> <a href="dowload/01 - História da Internet.zip" download="01 - História da Internet.zip" type="dowload/zip">dowload pdf</a>
+    </p>
+</body>
+</html>

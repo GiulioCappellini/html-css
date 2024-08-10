@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+    font: normal normal 1em "Arial", "sans-serif";
+}
+
+h1#tituloprin {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 25px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: red;
+}

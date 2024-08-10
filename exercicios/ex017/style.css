@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+main{
+    /*    style  weight size    family          */
+    font: italic normal 1em 'Arial', 'sans-serif';
+    width: 500px;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 3px 3px 7px rgb(28, 28, 28);
+    margin: auto;
+}
+h1 {
+    font-style: normal;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    text-align: center;
+}

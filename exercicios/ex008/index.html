@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texrto</title>
+    <style>
+        body{
+            background-color: rgb(223, 222, 222);
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatação de textos</h1>
+    <h2>Negrito / Strong</h2>
+    <p>
+        Existem 2 formas de deixar o texto em negrito:
+    </p> 
+    <p>
+        Não semântica, utilizando a tag &lt; b &gt;: &#x274C; <br> <b>Exemplo de frase em negrito</b>
+    </p>
+    <p>
+        Semântica, utilizando a tag &lt; strong &gt;: &#x2705; <br> <strong>Exemplo de frase em negrito</strong>
+    </p>
+    <h2>Italico / Ênfase</h2>
+    <p>
+        Não semantica, utilizando a tag &lt; i &gt;: &#x274c; <br> <i>Exemplo de frase em italico</i>
+    </p>
+    <p>
+        Semantica, utilizando a tag &lt; em &gt;: &#x2705; <br> <em>Exemplo de frase em italico</em>
+    </p>
+    <hr>
+    <h2>Conclusão</h2>
+    <p>É sempre melhor utilizar uma tag semantica no lugar de uma que não é semantica, oque muda é que para quem vai ler o código fará mais sentido e não corre o risco de deixar de funcionar em pouco tempo!</p>
+    <h1>Outras tags de formatação:</h1>
+    <h2>Texto marcado</h2>
+    <p>Utilizando a tag &lt; mark &gt; <mark>é possivel criar uma marcação no texto</mark> e é possivel trocar a cor da marcação, caso queira trocar apenas a cor de um &lt; mark &gt; basta adicionar 'style="background-color:cor desejada"', caso queira mudar a cor de todos os &lt; mark &gt; do programa a alteração deve ser feita dentro de head, do mesmo jeito que tricamos o bg(background-color) da pagina em si, basta mudar o termo 'budy' por 'mark'.
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>
+        Também é possivel mudar o tamanho da letra com html5, mas isso não é muito semântico então é melhor fazer com css, mas a tag(&lt; small &gt;) para texto pequeno pode ser semântico e mesmo assim <small>seu resultado não é tão significante.</small>
+    </p>
+    <h2>Texto deletado</h2>
+    <p>
+        É possivel criar um texto deletado com a tag &lt; del &gt; o texto deletado nada mais é doque um texto que deve ser lido mas não deve ser <del>considerado</del>.
+    </p>
+    <h2>Texto inserido</h2>
+    <p>
+        Um texto inserido nada mais é doque um tecto sublinhado que pode ser feito da forma semântica e da forma errada(não Semântica): <br> Forma semântica: <ins>Este é um exemplo de texto sublinhado.</ins> <br> Forma errada(não semântica):<u>Este é um exemplo de texto sublinhado.</u> <br> <strong>A forma semântica usa a tag &lt; ins &gt; já a forma errada usa a tag &lt; u &gt;</strong>
+    </p>
+    <h2>Texto suberscrito</h2>
+    <p>
+        Um texto suberscrito é aquela letra ou número que está um pouco acima e menor que o normal, ela é feita com a tag &lt; sup &gt; e torna possivel escrever algumas contas matematicas como o teorema de pitagoras que é a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup>.
+    </p>
+    <h2>Texto subcrito</h2>
+    <p>
+        Um texto subcrito e a mesma coisa que o texto subrescrito porem ao contrario, inves da letra ou número ser em cima ele será em baixo como na formula da água: H<sub>2</sub>O
+    </p>
+</body>
+</html>

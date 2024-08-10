@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>
+        Agora veremos imagens que mudam de tamanho, na verdade muda a imagem que é mostrada, de acordo com o tamanho da sua tela atual
+    </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/imagem-1000x1000.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/imagem-700x700.png" type="image/png">
+        <img src="imagens/imagem-300x300.png" alt="Imagem flexivel">
+    </picture>
+    <p>
+        basicamente oque está acontecendo nessa imagem é devido a duas novas tags a &lt;picture&gt; que é dentro dela que a outra tag que irei dizer e a tag &lt;img&gt; estão contidas, ou seja sem ela imagens flexiveis apênas com HTML não são possiveis e a outra tag é &lt;source:media:type&gt; nela vai primeiro o valor mínimo de largura em pixels com mais 50px para que a barra de rolagem lateral não aparessa e o outro valor é o caminho para a imagem que deverá ser caregada caso o valor mínimo estabelecido anteriormente seja essedido e o valor de type será obtido no site <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">iana.org</a>, é importante lembrar que toda nova tag &lt;source:media:type&gt; deve ser adicionada sobre a anterior e sempre com um valor em pixels menor que a de baixo.
+    </p>
+
+    <h1>Aúdio no site</h1>
+    <audio preload="metadata" src="audios/taking-flight-205965.mp3" controls loop></audio>
+    <p>
+        Os navegadores modernos não permitem que audios sejam reproduzidos automaticamente ou sem o usuário precionar o play, para fazer isso seria necessário JavasScript, futuramente irei explicar isso com JavaScript. Abaixo tem a explicação da tag &lt;aúdio&gt; e os parâmetros: 'preload', 'controls' e 'loop'.
+    </p>
+    <h2>preload:</h2>
+    <p>
+        Esse parâmetro filtra oque será baixado ao abrir o site, o valor <strong>'auto(padrão)'</strong> faz com que todo o audio e suas informações sejam baixadas quando o usúario abrir o site(deixa o site mais lento e pesado), o valor <strong>'metadata'</strong> faz com que apênas as informações esenciais sejam baixadas, como tempo de duração e volume, este é o valor recomendado para este parâmetro e o valor <strong>'none'</strong> faz com que absolutamente nada sobre o aúdio seja baixado tornando o site muito leve e rapido de ser executado, mas faz com que o aúdio demore alguns segundos para iniciar.
+    </p>
+    <h2>controls:</h2>
+    <p>
+        Este é bem simples, sua função é disponibilizar ao usúario o controle do aúdio
+    </p>
+    <h2>loop:</h2>
+    <p>
+        Este parâmetro faz com que sempre que o aúdio termine ele automaticamente recomesse, sem que o usúario precise reiniciar a música ou precionar novamente o play.
+    </p>
+</body>
+</html>

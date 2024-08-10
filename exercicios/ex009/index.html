@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas</title>
+</head>
+<body>
+    <h1>listas</h1>
+    <h2>Listas ordenadas:</h2>
+    <p>
+        Listas ordenadas são listas que tem uma ordem para ser seguida sua tag é &lt;ol&gt; essas listas podem ser por ordem numérica(1), alfabetica com letras maiusculas(A), alfabetica com letras minusculas(a), com numeração romana maiuscula ou com numeração romana minuscula. o parâmetro dentro de &lt;ol&gt; que deve ser passado para definir este tipo é 'type='exemplo'' e para definir, por exemplo em qual número a lista vai começar é utilizado o parâmetro 'start='exemplo'', além de tudo isso cada item da lista deve ser adicionado com a tag &lt;li&gt;. Abaixo tem um exemplo de uma lista ordenada com números romanos e começando do número 5:
+    </p>
+    <ol type="I" start="5">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Tomar café da manhã</li>
+        <li>Se arumar</li>
+        <li>Passar desodorante e etc</li>
+        <li>Ir para a escola</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <p>
+        Listas não ordenadas são listas que não posuem uma ordem expecifica a ser seguida como por exemplo uma lista de super mercado, sua tag é &lt;ul&gt; e o único parâmetro que ela contem é 'type='exemplo'' que pode ser uma bolinha prenchida(disc), uma bolinha vazia(circle) ou um quadrado(square), assim como nas listas ordenadas cada item deve ser adicionado utilizando a tag &lt;li&gt;. Abaixo tem um exemplo de uma lista não ordenada com uma bolinha vazia:
+    </p>
+    <ul type="circle">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Tomar café da manhã</li>
+        <li>Se arumar</li>
+        <li>Passar desodorante e etc</li>
+        <li>Ir para a escola</li>
+    </ul>
+    <h2>Misturar listas</h2>
+    <p>
+        É importante saber que além de ser possivel colocar listas dentro de outras listas, também é possivel misturar listas ordenadas com listas não ordenadas com a ajuda do aninhamento no código. Abaixo tem um exemplo de uma lista da série escolar e minhas matérias escolares favoritas e os assuntos preferidos dessa matéria:
+    </p>
+    <ul>
+        <li>5<sup>o</sup>ano</li>
+        <ol>
+            <li>Educação física</li>
+            <ol>
+                <li>Gostava apênas das aulas praticas, independentemente do jogo.</li>
+            </ol>
+            <li>Matematica</li>
+            <ol>
+                <li>multiplicação</li>
+                <li>divisão</li>
+            </ol>
+        </ol>
+        <li>6<sup>o</sup>ano ao 9<sup>o</sup>ano</li>
+        <ol>
+            <li>Matematica</li>
+            <ol>
+                <li>Sem assunto expecifico</li>
+            </ol>
+            <li>Educação física</li>
+            <ol>
+                <li>Só as aulas pratica, independentemente do jogo</li>
+            </ol>
+        </ol>
+        <li>1<sup>o</sup>médio até hoje</li>
+        <ol>
+            <li>Física</li>
+            <ol>
+                <li>Perguntas sobre inercia</li>
+                <li>Todo assunto que envolvesse velicidade e tipos de energia</li>
+            </ol>
+            <li>Matematica</li>
+            <ol>
+                <li>Sem assuntos expecificos</li>
+            </ol>
+        </ol>
+    </ul>
+    <h2>Listas de definição</h2>
+    <p>
+        As listas de definição se acemelham muita a um dicionário onde em cima e colado a esquerda se tem o termo e logo em baixo com uma pequena margem se tem a definição, em HTML5 existem tags para isso, a tag &lt;dl&gt; é usada para uma lista de definição, a tag &lt;dt&gt; indica o terma a ser definido e a tag &lt;dd&gt; é a definição deste termo, neste caso a tag &lt;li&gt; não será utilizada já que o conteudo será adicionado com as tags fornecidas anteriormente. Abaixo está um exemplo de uma lista de definição das linguagens para desenvolvimento web:
+    </p>
+    <dl>
+        <dt><abbr title="Linguagem de Marcação de HiperTexto">HTML</abbr></dt>
+        <dd>
+            Utilizada para fazer o esqueleto do site(linguagem de marcação)
+        </dd>
+        <dt><abbr title="Folha de Estilo em Cascatas">CSS</abbr></dt>
+        <dd>
+            Utilizada para dar estilo e personalizar o site(linguagem de forma)
+        </dd>
+        <dt>JavaScript</dt>
+        <dd>
+            Usada para adicionar as interações com o usuário e as animações do site(linguagem de programação)
+        </dd>
+    </dl>
+</body>
+</html>

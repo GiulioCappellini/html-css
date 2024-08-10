@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        a {
+            color: blueviolet;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        a::before {
+            content: '[link] ';
+            color: black;
+            font-weight: lighter;
+        }
+
+        a::after {
+            content: ' [link]';
+            color: black;
+            font-weight: lighter;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o "::after" e o "::bofore"</h1>
+    <ul>
+        <li><a href="hover.html">texto oculto</a></li>
+        <li><a href="index.html">mudando cor</a></li>
+    </ul>
+    <p>
+        Para adicionar o conteudo se usa o "content: ...;"
+    </p>
+</body>
+</html>

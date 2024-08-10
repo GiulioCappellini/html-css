@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+div.escondefrase:hover {
+    color: red;
+}
+
+div.escondefrase > p {
+    display: none;
+}
+
+div.escondefrase:hover > p {
+    display: block;
+}
+

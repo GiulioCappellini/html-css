@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+    <style>
+        blockquote{
+            background-color: rgba(215, 215, 215, 0);
+            -webkit-text-fill-color: rgb(0, 60, 199);
+        }
+    </style>
+</head>
+<body>
+    <h1>tag &lt;code&gt;</h1>
+    <p>
+        Essa tag faz com que todos entendam que seu conteudo se trata de um código, por isso seu nome é esse. Abaixo tem um exemplo de um código, em python, com  a tag &lt;code&gt;: <br>
+        <code>
+            número = int(input('Digite um número qualquer: '))
+        </code>
+    </p>
+    <h1>tag &lt;pre&gt;</h1>
+    <p>
+        Essa tag alem de tornar seu conteudo monoespaçado faz com que todos os espaços e quebras de linhas sejam considerados e mostrados no programa final. Abaixo tem um código, em python, que foi escrito da mesma forma que você verá graças a essa tag, por facilitar a vida do desenvolvesor em html5 ela se torna muito util!
+<pre>
+<code>
+n = int(input('Digite um número qualquer: '))
+if n % 2 == 0:
+    print('Seu número é PAR')
+else:
+    print('Seu número é IMPAR')
+</code>
+</pre>
+    </p>
+    <h1>tag &lt;q&gt;</h1>
+    <p>
+        Essa tag apênas substitui as aspas, mas é melhor usar essa tag no lugar das aspas sempre que o conteúdo for uma citação simples já que essa tag é semântica.
+    </p>
+    <h1>tag &lt;bq&gt; / &lt;blockquote&gt;</h1>
+    <p>
+        Essa tag tem a mesma função que a de cima, abaixo você pode-rá ver a diferença entre elas: <br> <strong>com &lt;q&gt;:</strong> <br> Um velho uma vez disse <q>O computador é apênas um burro muito rapido</q> <br> <strong>com &lt;bq&gt;:</strong> <br> um velho uma vez disse <blockquote>O computador é apênas um burro inteligente!</blockquote>
+    </p>
+    <h1>tag &lt;abbr&gt;</h1>
+    <p>
+        Essa tag tem a função de mostrar ao usuário oque a abreviação ou sigla significa, atraves de um pequeno pop-up que se abre ao lado da abreviação quando o usuário passa o cursor em cima da sigla. Abaixo terá um exemplo: <br> <abbr title="Puta que pario(xingamento)">pqp</abbr>
+    </p>
+    <h1>tag &lt;bdo:r&gt;</h1>
+    <p>
+        Essa tag tem a função de simplesmente inverter seu conteudo, como mostrado no exemplo a seguir: <br> <bdo dir="rtl">Estou adorando aprender HTML5 e CSS3, não vejo a hora de começar a aprender JavaScript</bdo> <br> na verdade não é que ela inverte o conteudo, é que ela o escreve da direita para a esquerda.
+    </p>
+</body>
+</html>

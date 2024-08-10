@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@font-face {
+    font-family: "moderna";
+    src: url(fonts/Gamerock.otf) format(opentype);
+}
+main {
+    font: italic normal 0.8em "DM Mono", "sans-sarif";
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+    width: 400px;
+    border-radius: 12px;
+    padding: 8px;
+}
+#fonte2 {
+    font: italic normal 1.8em "moderna", "DM Mono", "sens-serif";
+    text-align: center;
+}
+p {
+    text-align: center;
+}
