@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+strong {
+    color: blue;
+}
+
+
+.container {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.bloco {
+    width: 200px;
+    height: 200px;
+    transition: width 0.15s ease-in, height 0.15s ease-in;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+p {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 190px;
+}
+
+.bloco#bloco1 {
+    background-color: red;
+}
+
+.bloco#bloco2 {
+    background-image: linear-gradient(red, orange);
+}
+
+.bloco#bloco3 {
+    background-image: url(../imagens/pattern001.png);
+}
+
+
+.bloco:hover {
+    width: 210px;
+    height: 210px;
+}
+
+.bloco:hover > p {
+    display: block;
+}
+
+
+.container_botao {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    color: white;
+    background-image: linear-gradient(-9deg, blue, rgb(76, 0, 255) 80%);
+    width: 300px;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: width 0.15s ease-in, height 0.15s ease-in, font-size 0.15s ease-in;
+}
+
+.botao:hover {
+    width: 310px;
+    height: 45px;
+    font-size: 17px
+}
