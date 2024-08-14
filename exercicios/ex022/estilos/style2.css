@@ -6,3 +6,73 @@
     text-decoration: none;
 }
 
+
+.container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    height: 160px;
+}
+
+
+.bloco {
+    width: 150px;
+    height: 150px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: width 0.15s ease-in, height 0.15s ease-in;
+}
+
+.bloco[id]:hover {
+    width: 160px;
+    height: 160px;
+}
+
+
+.bloco > p {
+    color: rgb(0, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.bloco:hover > p {
+    opacity: 1;
+}
+
+
+.bloco {
+    background-image: url(../imagens/pattern001.png);
+    background-size: 50px;
+}
+
+.bloco#b2 {
+    background-repeat: no-repeat;
+}
+
+.bloco#b3 {
+    background-repeat: repeat-x;
+}
+
+.bloco#b4 {
+    background-repeat: repeat-y;
+}
+
+.bloco#b5 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bloco#b6 {
+    background-repeat: no-repeat;
+    background-position: center;
+}
