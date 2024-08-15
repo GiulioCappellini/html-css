@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+body {
+    height: calc(100vh - 12px);
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+
+.bloco {
+    border-radius: 20px;
+    width: calc(50% - 6px);
+    height: calc(100% - 12px);
+    box-shadow: 1px 1px 2px black;
+    background-image: url(../imagens/wallpaper002.jpg);
+}
+
+
+.container_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.bloco#left_top {
+    background-position: left top;
+    border-top-left-radius: 0px;
+}
+
+.bloco#right_top {
+    background-position: right top;
+    border-top-right-radius: 0px;
+}
+
+
+.container_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.bloco#center_center {
+    background-position: center;
+}
+
+
+.container_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.bloco#left_bottom {
+    background-position: left bottom;
+    border-bottom-left-radius: 0px;
+}
+
+.bloco#right_bottom {
+    background-position: right bottom;
+    border-bottom-right-radius: 0px;
+}
+
