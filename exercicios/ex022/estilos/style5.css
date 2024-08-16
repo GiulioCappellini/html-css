@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.container {
+    height: 500px;
+    background: purple url(../imagens/target001.png) no-repeat ;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.bloco {
+    width: 300px;
+    height: 200px;
+    background: yellow url(../imagens/target001.png) no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
