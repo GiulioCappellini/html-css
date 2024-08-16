@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: black;
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background: black url(../imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    /*
+        Existe uma ShortHand para os parâmetros acima:
+        -> background: color > image > position > repeat > -[size]- > attachment
+        ---> size não funciona é necesário adicionar fora da ShortHand <---
+    */
+
+}
+
+
+main {
+    max-width: 500px;
+    height: fit-content;
+    margin: 10px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 1px 1px 2px black;
+}
+
+main > p {
+    padding: 5px;
+    text-align: justify;
+    text-indent: 20px;
+}
