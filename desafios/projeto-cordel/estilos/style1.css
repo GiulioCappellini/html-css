@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "panton";
+    src: url(../fontes/panton.black-caps.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: 0px;
+    font-size: 1em;
+}
+
+
+:root {
+    --fonte1: "panton", cursive;
+    --fonte2: "Sriracha", cursive;
+    --fonte3: Arial, sans-serif;
+}
+
+
+a {
+    color: white;
+    font-weight: 800;
+    position: relative;
+}
+
+a::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+
+header {
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header>h1 {
+    font-family: var(--fonte1);
+    font-size: 7vw;
+}
+
+header>p {
+    font-family: var(--fonte3);
+    padding-bottom: 50px;
+}
+
+
+p.texto {
+    font: italic bold 3.5vw var(--fonte2);
+    line-height: 2em;
+    margin: 55px 0px 86px 30px;
+}
+
+
+section {
+    background-size: 100%;
+    padding: 60px 0px 60px 30px;
+}
+
+section.s1 {
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+}
+
+section.s2 {
+    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+}
+
+
+.container_p {
+    background-color: rgba(0, 0, 0, 0.348);
+    padding-inline: 10px;
+    width: fit-content;
+}
+
+.container_p>p {
+    color: white;
+    font: italic bold 3.5vw var(--fonte2);
+    text-shadow: 1px 1px 0px black;
+    line-height: 110px;
+    line-height: 2em;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+}
