@@ -55,6 +55,7 @@ header {
 header>h1 {
     font-family: var(--fonte1);
     font-size: 7vw;
+    font-variant: small-caps;
 }
 
 header>p {
