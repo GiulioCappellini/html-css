@@ -72,16 +72,17 @@ p.texto {
 
 
 section {
-    background-size: 100%;
     padding: 60px 0px 60px 30px;
 }
 
 section.s1 {
-    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+    background: white url(../imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
 }
 
 section.s2 {
-    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+    background: white url(../imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
 }
 
 
