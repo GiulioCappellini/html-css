@@ -14,9 +14,19 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-weight: bold;
+            padding-bottom: 4px;
+            font-size: 1.4em;
+        }
+
         thead, tfoot {
             background-color: rgb(64, 64, 64);
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
         }
 
         td, th {
@@ -28,10 +38,11 @@
 </head>
 <body>
     <table>
+        <caption>Patentes de Giulio</caption>
         <thead>
             <tr>
-                <th>Nome</th>
-                <th>Grau de parentesco</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Grau de parentesco</th>
             </tr>
         </thead>
         <tbody>
@@ -57,7 +68,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Somatório das idades</th>
+            <th scope="row">Somatório das idades</th>
             <td>Aproximadamente 272 anos</td>
         </tfoot>
     </table>
