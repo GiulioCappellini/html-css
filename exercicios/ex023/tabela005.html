@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de colunas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 40vw;
+        }
+
+        col.nome {
+            background-color: green;
+        }
+
+        col.prof {
+            background-color: red;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        thead {
+            background-color: rgb(79, 79, 79);
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="idade">
+            <col class="sexo">
+            <col class="prof">
+        </colgroup>
+        <caption>Selecionar a coluna inteira de uma vez:</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Giulio</td>
+                <td>17</td>
+                <td>Masculino</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Giulio</td>
+                <td>17</td>
+                <td>Masculino</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Giulio</td>
+                <td>17</td>
+                <td>Masculino</td>
+                <td>Estudante</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
