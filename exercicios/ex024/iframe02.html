@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(228, 228, 228);
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 350px;
+            border: 1px black solid;
+        }
+
+        .iframe {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab unde fugit quae est facilis earum aliquam, harum ratione, laboriosam enim, aperiam error incidunt pariatur a quisquam dolor deleniti reprehenderit? Qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab commodi suscipit error incidunt sint, ut quae id ipsum quam aspernatur nisi nihil voluptatum iusto delectus obcaecati unde tempore nobis libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi cumque numquam autem impedit iste similique aspernatur? Dolorum consequuntur corporis repudiandae adipisci! Consectetur deserunt nostrum quod totam soluta excepturi. Possimus.
+    </p>
+    <nav>
+        <ul>
+            <li><a href="paginas-extras/pag01.html" target="frame">Pagina texte 1</a></li>
+            <li><a href="paginas-extras/pag02.html" target="frame">Pagina texte 2</a></li>
+            <li><a href="paginas-extras/pag03.html" target="frame">Pagina texte 3</a></li>
+        </ul>
+    </nav>
+    <div class="iframe">
+        <iframe src="" name="frame">
+            <p>
+                Infelismente seu navegador não suporta o método utilizado.
+            </p>
+        </iframe>
+    </div>
+</body>
+</html>
