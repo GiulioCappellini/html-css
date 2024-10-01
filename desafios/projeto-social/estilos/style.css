@@ -36,3 +36,57 @@ section#cell {
     width: 220px;
     height: 389px;
 }
+
+section#midias {
+    position: absolute;
+    left: 95%;
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 100vh;
+}
+
+section#midias>div {
+    width: 56px;
+    height: 56px;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 2px 2px 8px black;
+    transition: width 0.2s ease-out, height 0.2s ease-out;
+}
+
+div.home {
+    background: url(../imagens/logo-home.jpg)  no-repeat;
+    top: 10px;
+}
+
+div.youtube {
+    background: url(../imagens/logo-youtube.jpg) no-repeat;
+    top: 90px;
+}
+
+div.github {
+    background: url(../imagens/logo-github.jpg) no-repeat;
+    top: 170px;
+}
+
+div.instagram {
+    background: url(../imagens/logo-instagram.jpg) no-repeat;
+    top: 250px;
+}
+
+div.x {
+    background: url(../imagens/logo-twitter.jpg) no-repeat;
+    top: 330px;
+}
+
+div.facebook {
+    background: url(../imagens/logo-facebook.jpg) no-repeat;
+    top: 410px;
+}
+
+section#midias>div:hover {
+    width: 60px;
+    height: 60px;
+}
