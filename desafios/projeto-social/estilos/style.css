@@ -40,8 +40,8 @@ section#cell {
 
 section#midias {
     display: flex;
-    justify-content: center;
-    width: 65px;
+    justify-content: flex-end;
+    width: 98vw;
     height: 100vh;
 }
 
