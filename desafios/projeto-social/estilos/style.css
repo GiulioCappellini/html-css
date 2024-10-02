@@ -39,13 +39,11 @@ section#cell {
 }
 
 section#midias {
-    display: flex;
-    justify-content: flex-end;
-    width: 98vw;
-    height: 100vh;
+    text-align: right;
+    width: 95vw;
 }
 
-section#midias>div {
+section#midias>a>img {
     width: 56px;
     height: 56px;
     background-size: cover;
@@ -55,37 +53,38 @@ section#midias>div {
     transition: width 0.2s ease-out, height 0.2s ease-out;
 }
 
-div.home {
-    background: url(../imagens/logo-home.jpg)  no-repeat;
+section#midias>a>img:hover {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+}
+
+img.home {
+    background: url(../imagens/logo-home.jpg) no-repeat;
     top: 10px;
 }
 
-div.youtube {
+img.youtube {
     background: url(../imagens/logo-youtube.jpg) no-repeat;
     top: 90px;
 }
 
-div.github {
+img.github {
     background: url(../imagens/logo-github.jpg) no-repeat;
     top: 170px;
 }
 
-div.instagram {
+img.instagram {
     background: url(../imagens/logo-instagram.jpg) no-repeat;
     top: 250px;
 }
 
-div.x {
+img.x {
     background: url(../imagens/logo-twitter.jpg) no-repeat;
     top: 330px;
 }
 
-div.facebook {
+img.facebook {
     background: url(../imagens/logo-facebook.jpg) no-repeat;
     top: 410px;
-}
-
-section#midias>div:hover {
-    width: 60px;
-    height: 60px;
 }
