@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="#" method="get" autocomplete="on">
+        <p>
+            <label for="iname">Nome:</label>
+            <input type="text" name="name" id="iname" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="iidade">Idade:</label>
+            <input type="number" name="idade" id="iidade" required min="1" max="120" step="1" placeholder="Idade">
+        </p>
+        <p>
+            <label for="idate">Data de nascimento:</label>
+            <input type="date" name="date" id="idate" required>
+        </p>
+        <p>
+            <label for="imedia">Media na escola:</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1" placeholder="0 a 10">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
