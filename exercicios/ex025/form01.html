@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            margin-block: 10px;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        form {
+            background-image: linear-gradient(113deg, rgb(255, 0, 0), rgb(255, 255, 0));
+            padding: 10px;
+            border-radius: 10px;
+            height: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#" class="form">
+            <h1>Meu primeiro formulário</h1>
+            <p>
+                Nome: <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                Sobrenome: <input type="text" name="sobrenome" id="sobrenome">
+            </p>
+            <p>
+                <input type="submit" value="Enviar" id="submit">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
