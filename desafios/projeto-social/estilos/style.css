@@ -24,36 +24,37 @@ section#cell {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70vw;
-    height: 80vh;
+    width: 250px;
+    height: 506px;
     background: url(../imagens/frame-iphone.png) center center no-repeat;
     background-size: contain;
 }
 
 #frame {
-    height: 59.6vh;
+    height: 378px;
+    width: 214px;
     position: absolute;
-    top: 50.5%;
+    top: 50.4%;
     left: 50.1%;
     transform: translate(-50%, -50%);
 }
 
 section#midias {
     text-align: right;
-    width: 95vw;
 }
 
-section#midias>a>img {
+section#midias > a > img {
     width: 56px;
     height: 56px;
+    height: 56px;
+    margin: 10px;
     background-size: cover;
     border-radius: 50%;
-    position: absolute;
     box-shadow: 2px 2px 8px black;
-    transition: width 0.2s ease-out, height 0.2s ease-out;
+    transition: width 0.2s ease-out, height 0.2s ease-out, border .2s ease-out;
 }
 
-section#midias>a>img:hover {
+section#midias > a > img:hover {
     width: 60px;
     height: 60px;
     border: 1px solid white;
@@ -61,30 +62,24 @@ section#midias>a>img:hover {
 
 img.home {
     background: url(../imagens/logo-home.jpg) no-repeat;
-    top: 10px;
 }
 
 img.youtube {
     background: url(../imagens/logo-youtube.jpg) no-repeat;
-    top: 90px;
 }
 
 img.github {
     background: url(../imagens/logo-github.jpg) no-repeat;
-    top: 170px;
 }
 
 img.instagram {
     background: url(../imagens/logo-instagram.jpg) no-repeat;
-    top: 250px;
 }
 
 img.x {
     background: url(../imagens/logo-twitter.jpg) no-repeat;
-    top: 330px;
 }
 
 img.facebook {
     background: url(../imagens/logo-facebook.jpg) no-repeat;
-    top: 410px;
 }

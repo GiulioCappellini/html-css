@@ -8,3 +8,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+    display: block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(99, 1, 1);
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: font-size .3s ease-out, background-color .8s ease-in;
+}
+
+a:hover {
+    font-size: 1.2em;
+    background-color: red;
+}
