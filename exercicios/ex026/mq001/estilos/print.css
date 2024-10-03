@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    text-decoration: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu {
+    display: none;
+}
+
+main > article > p {
+    text-indent: 30px;
+}
+
+article::after {
+    color: rgb(0, 5, 54);
+    content: "Esta impreção saio veio do site ...";
+}
