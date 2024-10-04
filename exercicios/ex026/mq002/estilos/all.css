@@ -8,3 +8,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #223eff;
+}
+
+body > h1 {
+    color: white;
+    text-shadow: 1px 1px 0px #0f1d77;
+    font-size: 2em;
+    text-align: center;
+}
