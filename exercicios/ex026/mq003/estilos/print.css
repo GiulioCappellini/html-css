@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Print version */
+
+main {
+    border: 1px solid black;
+}
+
+main > h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-shadow: none;
+}
+
+main::after {
+    content: "Essa impresão é de um site criado por Giulio Cappellini!";
+    font-size: 0.6em;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-shadow: none;
+}
+
+img#phone {display: none;}
+img#tablet {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
+img#print {display: block;}
