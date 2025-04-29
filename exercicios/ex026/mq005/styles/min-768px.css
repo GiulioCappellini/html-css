@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.menu-container {
+    display: none;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.links a {
+    display: block;
+    width: 200px;
+    border-radius: 20px;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}

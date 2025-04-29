@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/first.css" media="all">
+    <link rel="stylesheet" href="styles/min-768px.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/print.css" media="print">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Meu Site</h1>
+        </header>
+        <nav>
+            <div class="menu-container"><span class="material-symbols-outlined menu" onclick="toggle_hide(event)">menu</span></div>
+            <div class="links hide">
+                <a href="#">Opção 1</a>
+                <a href="#">Opção 2</a>
+                <a href="#">Opção 3</a>
+                <a href="#">Opção 4</a>
+                <a href="#">Opção 5</a>
+            </div>
+        </nav>
+        <section>
+            <article>
+                <h2>Testando Media Queries</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur recusandae magni eum odit dolore unde veniam quasi qui adipisci nihil deleniti, at suscipit fugiat enim voluptatem quos, ullam blanditiis sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque nesciunt blanditiis. Excepturi, error iusto sed, suscipit ipsum nemo expedita quos ducimus doloribus nisi laboriosam voluptas fugiat fuga natus nulla? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae labore corporis atque laudantium quidem dignissimos fugit iure, adipisci fuga, voluptatum nobis. Dolorem ipsa eligendi numquam? Officiis in reprehenderit molestias non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima quasi nam officia soluta harum eligendi consequuntur. Facilis a omnis nulla possimus placeat beatae pariatur minus rem. Eveniet, est laudantium?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti illum, harum nostrum minus dicta reprehenderit repellat, aliquid porro recusandae consectetur ipsam pariatur deserunt officiis, quod earum commodi illo. Aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat officiis nisi nam illo vero cumque dolorum facere pariatur ab dolor fugit, tenetur voluptatum molestiae nihil laboriosam quaerat commodi quasi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt rem autem temporibus ad maxime qui at dolores itaque, officiis sequi ratione earum ipsum. Sit animi iste voluptate repellendus numquam similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facilis quaerat, provident reiciendis reprehenderit deserunt aut totam accusantium nobis dolorem omnis a at voluptatem illo minus sint nam soluta! Doloribus!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, ipsam. Rem laborum perferendis alias quam consectetur quis eos reprehenderit porro maxime consequatur quos, corporis nisi explicabo suscipit iste deserunt esse. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nam ea culpa dolore magnam ullam consectetur sit praesentium? Obcaecati error, nam laborum sit dolores perspiciatis facilis ipsum molestias vero quod.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa delectus, possimus quae eos cum laudantium repellendus sapiente magni culpa cumque ut. Ex esse veniam rem maxime laudantium rerum, dolores blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestias voluptate, nemo id atque deserunt optio ex ullam qui nobis vitae aut facere hic voluptatibus in rem corrupti mollitia! Ipsum? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus ex asperiores at aliquam, rem nemo illo voluptatem doloribus possimus illum tempora repudiandae odio architecto accusamus fugiat deserunt praesentium hic.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Autoria de Giulio Cappellini</p>
+    </footer>
+
+    <script>
+        function toggle_hide(event) {
+            let links = document.querySelector(".links");
+
+            links.classList.toggle("hide")
+        };
+    </script>
+</body>
+</html>
