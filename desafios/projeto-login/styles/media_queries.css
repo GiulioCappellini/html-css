@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 80vw;
+        height: 280px;
+        display: flex;
+        transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+    }
+    
+    .img {
+        width: 55% !important;
+        height: 100% !important;
+        border-start-end-radius: 0px !important;
+        border-end-start-radius: 17px;
+    }
+
+    p {
+        padding-top: 0px !important;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    main {
+        width: 950px;
+        height: 350px;
+    }
+}
